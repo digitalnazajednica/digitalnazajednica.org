@@ -1,2 +1,0 @@
-# digitalnazajednica.org
-WWW
