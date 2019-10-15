@@ -108,7 +108,8 @@ a:hover {
 }
 
 header,
-article {
+article,
+footer {
   width: 600px;
   margin: 0 auto;
 }
@@ -167,6 +168,11 @@ aside,
 nav {
   width: 50%;
   float: left;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 960px) {
