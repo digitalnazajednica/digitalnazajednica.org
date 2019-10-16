@@ -1,0 +1,4 @@
+{{ $href := (index .Params "href") }}
+{{ $name := (index .Params "name") }}
+
+<a href="{{ $href }}" class="btn">{{ $name }}</a>
