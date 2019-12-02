@@ -208,3 +208,49 @@ aside p {
   font-style: italic;
   margin: 0;
 }
+
+/* SOCIALS */
+.icon {
+  fill: currentColor;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.socials {
+  border-top: 1px solid #eee;
+  margin-top: 30px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap
+}
+
+.socials a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  line-height: 1;
+}
+
+.socials a:hover {
+  opacity: .7;
+}
+
+.socials a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.socials a .icon {
+  margin-right: 5px;
+}
